@@ -379,9 +379,9 @@ void Dialog::onDownloadFinished()
             connect(worker, SIGNAL(loadFinished(bool)), this, SLOT(onLoadFinished(bool)));
 
             // Make sure user gets the board going now
-            QMessageBox msgBox;
-            msgBox.setText("Please unplug your PX4 board now and plug it back in");
-            msgBox.exec();
+            //QMessageBox msgBox;
+            //msgBox.setText(" Please unplug your PX4 board now and plug it back in");
+            //msgBox.exec();
         }
     }
 }
